@@ -153,8 +153,8 @@ const counterAnimation = (el, initialNum, finalNum) => {
     }
 }
 
-counterAnimation(document.querySelector('#foo'), 0, 13);
-counterAnimation(document.querySelector('#bar'), 0, 8);
+counterAnimation(document.querySelector('#foo'), 0, 2);
+counterAnimation(document.querySelector('#bar'), 0, 40);
 counterAnimation(document.querySelector('#satisfied'), 0, 99);
 //counting-animation
 
