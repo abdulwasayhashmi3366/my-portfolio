@@ -2858,4 +2858,8 @@ footer .fa-phone {
     max-width: 106px;
     gap: 10px;
   }
+
+  .banner .circles-wrapper {
+    display: none;
+  }
 }
