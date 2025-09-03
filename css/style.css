@@ -110,7 +110,7 @@ html {
 
 body {
   font-weight: 400;
-  overflow-x: hidden;
+  overflow: hidden;
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 1) 20%,
@@ -1675,11 +1675,6 @@ header.scrolled {
   display: none;
 }
 
-.reverse .btn {
-  max-width: 143px;
-  width: 100%;
-}
-
 .marquee:hover .marquee-content {
   animation-play-state: paused;
 }
@@ -2282,9 +2277,20 @@ footer .fa-phone {
     margin-bottom: 30px;
   }
 
+  .banner .center-column::after {
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 218px;
+  }
+
   .banner .center-column img {
     margin: 0 auto;
     display: flex;
+  }
+  .marquee-content .btn {
+    max-width: 80px;
+    padding: 5px 5px;
+    font-size: 10px;
   }
 
   .banner .circle {
